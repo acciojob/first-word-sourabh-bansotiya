@@ -1,11 +1,11 @@
 function firstWord(s) {
   // your code here
-	for (let i = 0; i < s.length; i++) {
-		if (s[i] == ' ') {
-			return s.substring(0,i);
-		}
+	if(!str.includes(' ')){
+		return str;
 	}
-	return s;
+	const spaceIdx = str.indexOf(' ');
+
+	return str.substring(0, spaceIdx);
 }
 
 // Do not change the code below
