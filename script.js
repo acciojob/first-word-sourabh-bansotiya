@@ -1,14 +1,10 @@
 function firstWord(s) {
-  // your code here
-	if(!s.includes(' ')){
-		return s;
-	} 
-	const spaceIdx = s.indexOf(' ');
-	if (spaceIdx === -1) {
-		return ' ';
-	}
-  
-	return s.substring(0, spaceIdx);
+  if (!s || s.indexOf(' ') === -1) {
+    return s;
+  } else {
+    return s.substring(0, s.indexOf(' '));
+  }
+}
 	
     /*for (let i = 0; i < s.length; i++) {
         if (s[i] === ' ') {
