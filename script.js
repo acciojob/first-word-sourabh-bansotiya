@@ -2,9 +2,9 @@ function firstWord(s) {
   // your code here
 	if(!s.includes(' ')){
 		return s;
-	}
+	} 
 	const spaceIdx = s.indexOf(' ');
-	if (spaceIdx == 0) {
+	if (spaceIdx === -1) {
 		return ' ';
 	}
   
