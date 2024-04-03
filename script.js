@@ -7,7 +7,7 @@ function firstWord(s) {
 	if (spaceIdx == 0) {
 		return ' ';
 	}
-
+  
 	return s.substring(0, spaceIdx);
 	
     /*for (let i = 0; i < s.length; i++) {
