@@ -12,7 +12,7 @@ function firstWord(s) {
         }
     }
     return s;  // Return the entire string if no space is found*/
-}
+
 
 
 // Do not change the code below
